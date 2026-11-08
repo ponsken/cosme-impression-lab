@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f2eb"><title>コスメの印象実験室</title><meta name="description" content="色、かたち、文字。あなたは何に心を動かされる？５問で楽しむコスメの印象実験。"><style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2eb;color:#303e36;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}header{max-width:1120px;margin:auto;padding:25px 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #dcded5}.brand{color:inherit;text-decoration:none;display:flex;align-items:center;gap:12px;font-size:14px;font-weight:600}.mark{font:italic 38px Georgia,serif}.brand small{display:block;font-size:8px;letter-spacing:2px;margin-top:6px;font-weight:400}.edition{font-size:10px;letter-spacing:2px;color:#7b8378}main{max-width:900px;margin:auto;padding:40px 24px 24px;min-height:75vh}.eyebrow{font-size:10px;letter-spacing:2.5px;color:#7b8378}.intro{text-align:center}h1{font-family:Georgia,"Yu Mincho",serif;font-weight:500;font-size:clamp(25px,4vw,38px);line-height:1.6;margin:15px 0 10px;letter-spacing:.04em}.sub{font-size:13px;color:#747c72;line-height:1.9;margin:0}.progress{display:flex;align-items:center;justify-content:space-between;margin:32px 0 18px;font-size:11px}.steps{display:flex;gap:5px}.steps i{display:block;width:32px;height:3px;background:#d9dcd2}.steps i.active{background:#657f67}.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{border:1px solid transparent;background:#e6e8dc;padding:0;border-radius:5px;overflow:hidden;color:inherit;position:relative;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px)}.card:focus-visible,button:focus-visible{outline:3px solid #587d5e;outline-offset:4px}.card.selected{border:2px solid #59745b}.scene{height:290px;display:flex;align-items:center;justify-content:center;position:relative;background:radial-gradient(ellipse at 45% 30%,#fff7 0,transparent 70%)}.scene:after{content:"";position:absolute;width:120px;height:15px;background:#253a2526;filter:blur(9px);border-radius:50%;bottom:30px;transform:rotate(-5deg)}.bottle{width:90px;height:170px;background:linear-gradient(95deg,#ffffffa0,transparent 30%,#00000009 90%,#ffffff77),var(--color);border-radius:13px 13px 16px 16px;position:relative;box-shadow:inset -6px 0 10px #0000000b,8px 12px 15px #33333315;display:flex;align-items:center;justify-content:center;margin-top:30px;z-index:1}.bottle:before{content:"";position:absolute;top:-43px;left:24px;width:42px;height:45px;background:linear-gradient(90deg,#b4b7aa,#e4e7de 45%,#9fa594);border-radius:7px 7px 2px 2px}.bottle:after{content:"";position:absolute;inset:10px auto 10px 8px;width:4px;background:#fff5;filter:blur(1px);border-radius:5px}.label{width:73px;min-height:95px;display:flex;flex-direction:column;justify-content:center;background:#f7f4e8e8;font-family:Georgia,serif;font-size:24px;letter-spacing:1px;line-height:1.3}.label small{font-family:Arial,sans-serif;font-size:6px;letter-spacing:1.5px;margin:10px 0}.label em{font-size:6px;font-style:normal;letter-spacing:.7px}.round .bottle{width:108px;height:145px;border-radius:40px 40px 22px 22px;margin-top:55px}.round .bottle:before{left:33px}.type .label{font-family:Arial,sans-serif;font-weight:800;font-size:22px;letter-spacing:-1px}.caption{display:flex;justify-content:space-between;align-items:center;background:#fdfcf5a6;padding:16px 18px;font-size:12px}.letter{font-family:Georgia,serif;font-size:20px}.circle{width:24px;height:24px;border:1px solid #a8b1a1;border-radius:50%;display:grid;place-items:center}.selected .circle{background:#58765c;color:#fff;border-color:#58765c}.same{display:block;border:0;background:none;color:#778071;font-size:12px;padding:15px;margin:8px auto}.same.selected{color:#35543d;text-decoration:underline}.hint{text-align:center;font-size:10px;color:#909589;letter-spacing:.5px}.reason{margin-top:22px;padding:20px 0;border-top:1px solid #d9ddd2}.reason p{font-size:12px;margin:0 0 12px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid #cdd3c5;border-radius:24px;padding:9px 17px;background:transparent;color:#687362;font-size:12px}.chip.on{background:#e0e7d7;border-color:#7f9676;color:#304a32}.primary{display:block;width:100%;border:0;border-radius:3px;background:#344e3e;color:#fff;padding:17px;margin:22px 0 8px;font-size:13px;letter-spacing:1px}.primary:disabled{background:#c7cec1;cursor:default}.bottom-note{text-align:center;color:#8b9285;font-size:10px}.result{max-width:620px;margin:auto}.result h1{font-size:30px}.summary{margin-top:30px;border-top:1px solid #d5dbce}.row{padding:20px 0;border-bottom:1px solid #d5dbce;display:grid;grid-template-columns:35px 1fr;gap:12px}.row .num{font:italic 25px Georgia;color:#8c9e83}.row h3{font-size:14px;font-weight:500;margin:0 0 8px}.row p{font-size:12px;line-height:1.8;margin:0;color:#78816f}.insight{background:#e7ebdf;padding:23px;margin:24px 0;border-radius:4px;font-size:13px;line-height:1.9}.secondary{border:1px solid #b9c4b1;background:none;color:#52664b;width:100%;padding:15px;border-radius:3px;font-size:12px;margin-bottom:10px}.notice{font-size:11px;color:#858d7d;line-height:1.8}footer{max-width:1120px;margin:20px auto 0;padding:24px 32px;border-top:1px solid #dcded5;display:flex;justify-content:space-between;font-size:10px;color:#8b9183}#status{min-height:18px;font-size:11px;text-align:center;color:#607058}@media(min-width:760px){main{max-width:740px}.scene{height:300px}}@media(max-width:520px){header{padding:18px 20px}.edition{font-size:8px;letter-spacing:1px}.brand{font-size:12px}.brand small{font-size:6px}.mark{font-size:32px}main{padding:28px 18px 20px}.cards{gap:10px}.scene{height:235px}.bottle{transform:scale(.88)}.scene:after{bottom:21px;width:90px}.caption{padding:12px}.progress{margin-top:25px}.sub{font-size:12px}footer{padding:20px;gap:12px;font-size:9px}.reason{margin-top:14px;padding-bottom:0}h1{margin-top:12px}.row h3{line-height:1.7}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Results reuse the exact bottle designs from each question. */
+.steps i{width:24px}
+h1:focus{outline:none}
+.insight h2{font-size:14px;font-weight:600;margin:18px 0 6px;line-height:1.7}
+.insight p{margin:0;font-size:13px;line-height:1.9}
+.answer-row{padding:22px 0;border-bottom:1px solid #d5dbce}
+.answer-heading{display:flex;align-items:flex-start;gap:13px}
+.answer-heading .num{font:italic 25px Georgia;color:#8c9e83;min-width:30px}
+.answer-heading h3{font-size:14px;font-weight:500;line-height:1.7;margin:0 0 5px}
+.answer-value{font-size:12px;color:#65755c;margin:0 0 12px}
+.answer-images{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-left:43px}
+.answer-bottle{margin:0;overflow:hidden;border-radius:4px;text-align:center}
+.answer-bottle .scene{height:185px}
+.answer-bottle .bottle{transform:scale(.62);transform-origin:center center;margin-top:20px}
+.answer-bottle.round .bottle{margin-top:45px}
+.answer-bottle .scene:after{width:75px;bottom:13px;height:10px;filter:blur(7px)}
+.answer-bottle figcaption{font-size:11px;padding:11px 5px;line-height:1.6;background:#fdfcf58c;color:#65705d}
+.answer-reason{margin:12px 0 0 43px;font-size:11px;color:#7b8472}
+@media(max-width:520px){.steps i{width:15px}.answer-images{margin-left:0;gap:10px}.answer-bottle .scene{height:170px}.answer-bottle .bottle{transform:scale(.58)}.answer-reason{margin-left:0}.insight{padding:20px}.answer-bottle figcaption{font-size:10px}}
+
+</style></head>
+<body><header><a href="./" class="brand"><span class="mark">c.</span><span>コスメの印象実験室<small>COSMETIC IMPRESSION LAB</small></span></a><span class="edition">EXPERIMENT 002</span></header>
+<main id="app"></main><footer><span>見た目と、気持ちの、小さな実験。</span><span>すべて架空の商品です</span></footer><script>
+const designs = {
+  color: {
+    a: {color: '#e3e6ce', bg: '#e4e3da', desc: '淡いグリーン'},
+    b: {color: '#524c43', bg: '#e4e3da', desc: '深いブラウン'}
+  },
+  form: {
+    a: {color: '#e8d4be', bg: '#ede3d5', desc: 'すっきりした形'},
+    b: {color: '#e8d4be', bg: '#ede3d5', shape: 'round', desc: '丸みのある形'}
+  },
+  type: {
+    a: {color: '#d5d8df', bg: '#e0e3e7', desc: '繊細な文字'},
+    b: {color: '#d5d8df', bg: '#e0e3e7', shape: 'type', desc: '力強い文字'}
+  }
+};
+const questions = [
+  {tag: 'COLOR / 色', title: '高級そうなのは、どっち？', note: '容器も文字も同じ。ボトルの色を変えてみました。', pair: 'color'},
+  {tag: 'COLOR / 色', title: '自分の棚に置きたいのは、どっち？', note: '同じ２本を、今度は自分の好みで。', pair: 'color'},
+  {tag: 'FORM / かたち', title: 'やさしそうなのは、どっち？', note: '同じ色でも、かたちが変わると？', pair: 'form'},
+  {tag: 'TYPOGRAPHY / 文字', title: '贈り物にしたいのは、どっち？', note: 'ラベルの文字を変えてみました。', pair: 'type'},
+  {tag: 'TYPOGRAPHY / 文字', title: '自分用に欲しいのは、どっち？', note: '同じ２本。自分に選ぶなら？', pair: 'type'}
+];
+let current = 0, answers = [], choice = null, reason = null;
+const root = document.querySelector('#app');
+const pad = n => String(n).padStart(2, '0');
+const designFor = (q, key) => designs[q.pair][key.toLowerCase()];
+function bottle(v) {
+  return `<div class="scene"><div class="bottle" style="--color:${v.color}"><div class="label">nue.<small>DAILY SERUM</small><em>30 mL / 1.0 fl. oz.</em></div></div></div>`;
+}
+function card(v, key) {
+  return `<button class="card ${v.shape || ''}" data-choice="${key}" aria-label="${key}を選ぶ" aria-pressed="false" style="background:${v.bg}">${bottle(v)}<div class="caption"><span class="letter">${key}</span><span class="circle" aria-hidden="true"></span></div></button>`;
+}
+function answerText(q, answer) {
+  return answer.choice === 'same' ? 'どちらも同じくらい' : designFor(q, answer.choice).desc;
+}
+function thumbnail(q, key) {
+  const v = designFor(q, key);
+  return `<figure class="answer-bottle ${v.shape || ''}" style="background:${v.bg}" aria-label="${key}：${v.desc}">${bottle(v)}<figcaption>${key}・${v.desc}</figcaption></figure>`;
+}
+function answerImages(q, answer) {
+  if (answer.choice === 'same') {
+    return `<div class="answer-images both">${thumbnail(q, 'A')}${thumbnail(q, 'B')}</div>`;
+  }
+  return `<div class="answer-images">${thumbnail(q, answer.choice)}</div>`;
+}
+function comparison(first, second, labels) {
+  const a = answers[first].choice, b = answers[second].choice;
+  if (a === 'same' && b === 'same') {
+    return `「${labels[0]}」も、「${labels[1]}」も、今回は「同じくらい」でした。`;
+  }
+  if (a === 'same') {
+    return `「${labels[0]}」は同じくらい。でも、「${labels[1]}」には${b}を選びました。`;
+  }
+  if (b === 'same') {
+    return `「${labels[0]}」には${a}を選び、「${labels[1]}」は「同じくらい」でした。`;
+  }
+  if (a === b) {
+    return `「${labels[0]}」も、「${labels[1]}」も、${a}を選びました。今回は２つの選択が重なりました。`;
+  }
+  return `「${labels[0]}」には${a}、「${labels[1]}」には${b}。問いが変わると、選ぶボトルも変わりました。`;
+}
+function render() {
+  const q = questions[current], last = current === questions.length - 1;
+  root.innerHTML = `<section class="intro"><span class="eyebrow">直感で選ぶ、５つの小さな実験</span><h1 tabindex="-1">${q.title}</h1><p class="sub">${q.note}</p></section><div class="progress"><span>${q.tag}</span><div class="steps" aria-label="全${questions.length}問中${current + 1}問目">${questions.map((_, i) => `<i class="${i <= current ? 'active' : ''}"></i>`).join('')}</div><span>${pad(current + 1)} / ${pad(questions.length)}</span></div><div class="cards">${card(designFor(q, 'A'), 'A')}${card(designFor(q, 'B'), 'B')}</div><button class="same" data-choice="same" aria-pressed="false">どちらも同じくらい</button><p class="hint">正解はありません。いま感じた印象でどうぞ。</p><section class="reason" hidden><p>どこが気になりましたか？ <span style="color:#949b8b">（任意）</span></p><div class="chips">${['色', '容器の形', '文字', 'なんとなく'].map(s => `<button class="chip" data-reason="${s}" aria-pressed="false">${s}</button>`).join('')}</div></section><button class="primary" id="next" disabled>${last ? '今回の結果を見る' : '次の実験へ'} <span aria-hidden="true">→</span></button><p class="bottom-note">全５問・約１分 / 回答は外部に送信されません</p>`;
+  root.querySelectorAll('[data-choice]').forEach(button => button.addEventListener('click', () => {
+    choice = button.dataset.choice;
+    root.querySelectorAll('[data-choice]').forEach(el => {
+      const on = el === button;
+      el.classList.toggle('selected', on);
+      el.setAttribute('aria-pressed', String(on));
+      const circle = el.querySelector('.circle');
+      if (circle) circle.textContent = on ? '✓' : '';
+    });
+    root.querySelector('.reason').hidden = false;
+    root.querySelector('#next').disabled = false;
+  }));
+  root.querySelectorAll('[data-reason]').forEach(button => button.addEventListener('click', () => {
+    reason = reason === button.dataset.reason ? null : button.dataset.reason;
+    root.querySelectorAll('[data-reason]').forEach(el => {
+      const on = el.dataset.reason === reason;
+      el.classList.toggle('on', on);
+      el.setAttribute('aria-pressed', String(on));
+    });
+  }));
+  root.querySelector('#next').onclick = () => {
+    if (choice === null) return;
+    answers.push({choice, reason});
+    choice = null;
+    reason = null;
+    if (!last) { current++; render(); } else result();
+    root.querySelector('h1').focus({preventScroll: true});
+    window.scrollTo(0, 0);
+  };
+}
+function result() {
+  const colorInsight = comparison(0, 1, ['高級そう', '自分の棚に置きたい']);
+  const typeInsight = comparison(3, 4, ['贈り物にしたい', '自分用に欲しい']);
+  root.innerHTML = `<section class="result"><div class="intro"><span class="eyebrow">YOUR IMPRESSIONS</span><h1 tabindex="-1">あなたが選んだ、<br>５つの印象。</h1><p class="sub">見た目の印象と、自分の好み。重なりましたか？</p></div><section class="insight"><span class="eyebrow">同じ２本、違う問い</span><h2>「高級そう」と「置きたい」</h2><p>${colorInsight}</p><h2>「贈りたい」と「自分用」</h2><p>${typeInsight}</p></section><div class="summary">${questions.map((q, i) => {
+    const answer = answers[i];
+    return `<article class="answer-row"><div class="answer-heading"><span class="num">${pad(i + 1)}</span><div><h3>${q.title}</h3><p class="answer-value">${answerText(q, answer)}</p></div></div>${answerImages(q, answer)}<p class="answer-reason">${answer.reason ? '気になった点：' + answer.reason : '理由の回答なし'}</p></article>`;
+  }).join('')}</div><p class="notice">すべて架空の美容液のイメージ図です。これは今回の回答の振り返りで、性格・肌質・商品の品質や効果を判定するものではありません。他の人の回答は集計していません。</p><button class="primary" id="again">もう一度、見比べる ↻</button><button class="secondary" id="copy">結果をコピーする</button><p id="status" role="status"></p></section>`;
+  document.querySelector('#again').onclick = () => {
+    current = 0; answers = []; choice = null; reason = null;
+    render(); root.querySelector('h1').focus({preventScroll: true}); window.scrollTo(0, 0);
+  };
+  document.querySelector('#copy').onclick = async () => {
+    const text = 'コスメの印象実験室｜今回の印象\n' + questions.map((q, i) => q.title + ' → ' + answerText(q, answers[i])).join('\n') + '\n\n' + colorInsight + '\n' + typeInsight;
+    try {
+      await navigator.clipboard.writeText(text);
+      document.querySelector('#status').textContent = '結果をコピーしました';
+    } catch {
+      document.querySelector('#status').textContent = 'このブラウザではコピーできませんでした。結果をスクリーンショットで残せます。';
+    }
+  };
+}
+render();
+
+</script></body></html>
